@@ -11,29 +11,30 @@
 .todo-create {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   width: 100%;
 }
 
-.todo-input{
-    width: 100%;
-    padding: .625rem;
-    border: none;
-    border-bottom: 1px solid lightgray;
-    outline: none;
+.todo-input {
+  width: 100%;
+  padding: 0.625rem;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
 }
 
+.todo-create-button {
+  margin-top: 10px;
+  padding: 0.625rem;
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: gold;
+  font-weight: 43.75rem;
+  cursor: pointer;
+}
 
-.todo-create-button{
-
-    margin-top: 10px;
-    padding: .625rem;
-    border: none;
-    border-radius: .3125rem;
-    background-color: gold;
-    font-weight: 43.75rem;
-    
-
-
+.todo-icons {
+  font-size: 1.25rem;
+  margin-right: .4375rem;
 }

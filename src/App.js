@@ -1,4 +1,5 @@
 import TodoCreate from './components/TodoCreate';
+import TodoList from './components/TodoList';
 import './styles/App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         }}
       >
         <TodoCreate />
+        <TodoList/>
       </div>
     </div>
   );
