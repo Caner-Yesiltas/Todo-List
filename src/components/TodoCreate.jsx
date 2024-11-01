@@ -1,36 +1,39 @@
-import React, { useState } from 'react'
-import "../styles/App.css"
+import React, { useState } from 'react';
+import '../styles/App.css';
 
-const TodoCreate = ({onCreateTodo}) => {
+const TodoCreate = ({ onCreateTodo }) => {
+  const [newTodo, setNewTodo] = useState('');
 
-    const [newTodo, setNewTodo] = useState('');
+  const clearInput= () => {
+    setNewTodo('');
+  }
 
-    const createTodo = () => {
-
-        if(!newTodo) return;
-        const request ={
-            id:Math.floor(Math.random()*99999999),
-            content: newTodo
-        }
-        onCreateTodo(request);
-    }
-
-        
-
-
-  
-
+  const createTodo = () => {
+    if (!newTodo) return;
+    const request = {
+      id: Math.floor(Math.random() * 99999999),
+      content: newTodo,
+    };
+    onCreateTodo(request);
+    clearInput();
+  };
 
   return (
     <div className='todo-create'>
-      <input 
+      <input
         value={newTodo}
-        onChange={(e)=> setNewTodo(e.target.value)}
-      type="text" className='todo-input' placeholder="Enter your todo"   />
+        onChange={(e) => setNewTodo(e.target.value)}
+        type='text'
+        className='todo-input'
+        placeholder='Enter your todo'
+      />
 
-      <button onClick={createTodo}  className='todo-create-button'   > Create Todo  </button>
+      <button onClick={createTodo} className='todo-create-button'>
+        {' '}
+        Create Todo{' '}
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default TodoCreate
+export default TodoCreate;

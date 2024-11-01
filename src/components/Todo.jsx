@@ -2,7 +2,7 @@ import React from 'react';
 import { IoIosRemoveCircle } from 'react-icons/io';
 import { FaEdit } from 'react-icons/fa';
 
-const Todo = () => {
+const Todo = ({ todo }) => {
   return (
     <div>
       <div
@@ -15,7 +15,7 @@ const Todo = () => {
           padding: '.625rem',
         }}
       >
-        First Todo
+        {todo.content}
         <div>
           <IoIosRemoveCircle className='todo-icons' style={{ color: 'red' }} />
           <FaEdit className='todo-icons' style={{ color: 'darkcyan' }} />
