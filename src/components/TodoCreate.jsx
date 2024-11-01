@@ -7,13 +7,15 @@ const TodoCreate = ({onCreateTodo}) => {
 
     const createTodo = () => {
 
+        if(!newTodo) return;
         const request ={
             id:Math.floor(Math.random()*99999999),
             content: newTodo
         }
+        onCreateTodo(request);
     }
 
-
+        
 
 
   
@@ -22,9 +24,10 @@ const TodoCreate = ({onCreateTodo}) => {
   return (
     <div className='todo-create'>
       <input 
-
+        value={newTodo}
+        onChange={(e)=> setNewTodo(e.target.value)}
       type="text" className='todo-input' placeholder="Enter your todo"   />
-      
+
       <button onClick={createTodo}  className='todo-create-button'   > Create Todo  </button>
     </div>
   )

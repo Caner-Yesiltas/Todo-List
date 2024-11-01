@@ -4,20 +4,20 @@ import TodoList from './components/TodoList';
 import './styles/App.css';
 
 function App() {
+  const [todos, setTodos] = useState([]);
 
-const [todos, setTodos] = useState([]);
+  debugger;
 
-const createTodo = (newTodo) => {
+  const createTodo = (newTodo) => {
+    setTodos([...todos, newTodo]);
+  };
 
-  setTodos([...todos, newTodo]);
-}
-
-
+  console.log(todos);
 
   return (
     <div className='App'>
       <div className='main'>
-        <TodoCreate   onCreateTodo={createTodo}    />
+        <TodoCreate onCreateTodo={createTodo} />
         <TodoList />
       </div>
     </div>
