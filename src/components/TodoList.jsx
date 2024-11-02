@@ -1,13 +1,13 @@
 import React from 'react';
 import Todo from './Todo';
 
-const TodoList = ({todos, onRemoveTodo}) => {
+const TodoList = ({todos, onRemoveTodo, onUpdateTodo}) => {
   return (
     <div style={{ width: '100%', marginTop: '50px' }}>
 
     {
       todos && todos.map((todo) => (
-        <Todo key={todo.key} todo={todo} onRemoveTodo={onRemoveTodo} />
+        <Todo key={todo.key} todo={todo} onRemoveTodo={onRemoveTodo} onUpdateTodo={onUpdateTodo} />
 
       ))
     }
