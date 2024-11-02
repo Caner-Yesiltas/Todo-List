@@ -41,7 +41,7 @@ To get a local copy up and running, follow these simple steps:
 ### Installation
 
 1. Clone the repository
-   git clone https://github.com/CanerYesiltas/currency-converter.git
+   git clone 
 
 2. Install NPM packages
    npm install
