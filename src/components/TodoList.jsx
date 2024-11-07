@@ -3,7 +3,7 @@ import Todo from './Todo';
 
 const TodoList = ({todos, onRemoveTodo, onUpdateTodo}) => {
   return (
-    <div style={{ width: '100%', marginTop: '50px' }}>
+    <div   className='todolist'  style={{ width: '100%', marginTop: '50px', }}>
 
     {
       todos && todos.map((todo) => (

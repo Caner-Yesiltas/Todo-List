@@ -2,6 +2,9 @@ body {
   background-image: url(../assets/6-\)\ \ 9\ Eylul\ \(1\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  /* responsive  */
+  background-position: center; 
+  min-height: 100vh; 
 }
 
 .App {
@@ -12,6 +15,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1rem; 
+  box-sizing: border-box;
+  
+  
 }
 .main {
   width: 31.25rem;
@@ -19,6 +26,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 31.25rem; 
+  padding: 0 1rem; 
+  box-sizing: border-box;
 }
 
 .todo-create {
@@ -28,13 +38,19 @@ body {
   justify-content: center;
   width: 100%;
   margin-top: 5.25rem;
+  
 }
 
 .todo-input {
   width: 99%;
-  border: none;
+  border: none ;
   border-bottom: 1px solid lightgray;
   outline: none;
+  height: 3rem;
+  border-radius: .625rem;
+  font-size: large;
+  padding: 0 1rem; 
+  box-sizing: border-box;
 }
 
 .todo-create-button {
@@ -45,10 +61,47 @@ body {
   background-color: gold;
   font-weight: 43.75rem;
   cursor: pointer;
+  font-weight: 800;
+}
+
+.todolist{
+ color: rgb(255, 0, 0);
+ font-weight: .875rem;
 }
 
 .todo-icons {
   font-size: 1.25rem;
   margin-right: 0.4375rem;
   cursor: pointer;
+}
+
+.edit-input {  
+  width: 100%;
+  max-width: 200px;
+  height: 2rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box; 
+  font-size: 14px; 
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    padding: 0 0.5rem; 
+  }
+
+  .todo-input {
+    font-size: .875rem; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .todo-create-button {
+    padding: 0.5rem 1rem; 
+    font-size: .875rem;
+  }
+
+  .edit-input {
+    max-width: 9.375rem; 
+  }
 }

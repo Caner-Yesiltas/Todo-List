@@ -39,7 +39,7 @@ const Todo = ({ todo, onRemoveTodo, onUpdateTodo }) => {
               value={newTodo}
               style={{ width: '23.75rem' }}
               onChange={(e) => setNewTodo(e.target.value)}
-              className='todo-input'
+              className='todo-input edit-input'
               type='text'
             />
           ) : (
@@ -59,7 +59,7 @@ const Todo = ({ todo, onRemoveTodo, onUpdateTodo }) => {
           ) : (
             <FaEdit
               className='todo-icons'
-              style={{ color: 'darkcyan' }}
+              style={{ color: 'black' }}
               onClick={() => setEditable(true)}
             />
           )}
