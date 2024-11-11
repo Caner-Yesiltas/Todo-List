@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <h2>
     👉 <a href="https://todo-list-psi-ecru.vercel.app/">Live Demo</a> 👈
@@ -101,3 +102,6 @@ Project Link: [https://todo-list-psi-ecru.vercel.app/](https://todo-list-psi-ecr
 <div align="center">
   Made with ❤️ by Caner Yesiltas
 </div>
+=======
+
+>>>>>>> 04df5d44d393379e6a948493b5d98cf9eb427167
