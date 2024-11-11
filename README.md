@@ -1,64 +1,105 @@
 # Todo List App ✅
 
 <div align="center">
- <h2>
-   👉 <a href="https://todo-list-psi-ecru.vercel.app/">Click Here for Live Demo</a> 👈
- </h2>
+  <h2>
+    👉 <a href="https://todo-list-psi-ecru.vercel.app/">Live Demo</a> 👈
+  </h2>
 </div>
 
-<p align="center">
- <img src="./assets/demo.gif" alt="Todo List Demo">
-</p>
+<div align="center">
+  <img src="assets/demo.gif" alt="Todo List Demo" width="800"/>
+</div>
 
-## About The Project
+## 📌 About The Project
 
-A clean and efficient todo list application built with React. Users can create, edit, and delete todos with a simple and intuitive interface.
+A sleek and efficient todo list application built with React. Users can manage their daily tasks with a simple, intuitive interface featuring real-time updates and smooth interactions.
 
-### Features
+### ✨ Key Features
 
-- Create new todos
-- Edit existing todos
-- Delete todos
-- Clean and responsive interface
-- Local state management with React hooks
-- Icons from React Icons library
+- ➕ Create new tasks easily
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks with one click
+- 💾 Local storage persistence
+- 📱 Responsive and mobile-friendly
+- 🎨 Clean and modern UI
+- 🔄 Real-time updates
 
-### Built With
+### 🛠️ Built With
 
 - [React](https://reactjs.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - CSS3
 
-## Getting Started
+## 🚀 Getting Started
 
-To get a local copy up and running, follow these simple steps:
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/todo-list.git
 
-### Prerequisites
+# Navigate to project directory
+cd todo-list
 
-- npm
-  npm install npm@latest -g
+# Install dependencies
+npm install
 
-### Installation
+# Start the development server
+npm start
+```
 
-1. Clone the repository
-   git clone
+## 💻 Project Structure
 
-2. Install NPM packages
-   npm install
+```
+src/
+├── components/
+│   ├── TodoForm.js     # Task input form
+│   └── TodoList.js     # Task list display
+├── styles/
+│   └── App.css
+└── App.js             # Main application logic
+```
 
-3. Start the development server
-   npm start
+## 🔍 Core Functionality
 
-## Contributing
+- **Task Management**: Create, edit, and delete tasks
+- **Local Storage**: Persistent data across sessions
+- **Input Validation**: Prevent empty task creation
+- **Real-time Updates**: Instant UI refresh on changes
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+## 🎯 Component Details
 
-## License
+### TodoForm Component
+- Clean input interface
+- Submit validation
+- Clear input after submission
+
+### TodoList Component
+- Task display
+- Edit/Delete options
+- Completion status toggle
+
+## 📱 Responsive Design
+
+- Mobile-first approach
+- Flexible layout system
+- Touch-friendly interface
+- Clean visual hierarchy
+
+## 🤝 Contributing
+
+Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
+## 📫 Contact
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
-Project Link: [https://vercel.com/caner-yesiltas-projects/todo-list](https://vercel.com/caner-yesiltas-projects/todo-list)
+Project Link: [https://todo-list-psi-ecru.vercel.app/](https://todo-list-psi-ecru.vercel.app/)
+
+---
+
+<div align="center">
+  Made with ❤️ by Caner Yesiltas
+</div>
