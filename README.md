@@ -51,12 +51,15 @@ npm start
 ```
 src/
 ├── components/
-│   ├── TodoForm.js     # Task input form
-│   └── TodoList.js     # Task list display
+│   ├── Todo.jsx          # Tek bir todo öğesi
+│   ├── TodoCreate.jsx    # Todo oluşturma formu
+│   └── TodoList.jsx      # Todo listesi
+├── helper/               # Yardımcı fonksiyonlar
+├── pages/               # Sayfalar
 ├── styles/
-│   └── App.css
-└── App.js             # Main application logic
-```
+│   └── App.css          # Stil dosyası
+├── App.js               # Ana uygulama bileşeni
+└── index.js             # Giriş noktası
 
 ## 🔍 Core Functionality
 
@@ -103,3 +106,4 @@ Project Link: [https://todo-list-psi-ecru.vercel.app/](https://todo-list-psi-ecr
 <div align="center">
   Made with ❤️ by Caner Yesiltas
 </div>
+```
