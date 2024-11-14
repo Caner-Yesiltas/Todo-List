@@ -103,7 +103,7 @@ Project Link: [https://todo-list-psi-ecru.vercel.app/](https://todo-list-psi-ecr
 
 ---
 
-<div align="center">
+
   Made with ❤️ by Caner Yesiltas
-</div>
+
 ```
