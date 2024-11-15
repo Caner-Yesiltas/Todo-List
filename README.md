@@ -51,15 +51,15 @@ npm start
 ```
 src/
 ├── components/
-│   ├── Todo.jsx          # Tek bir todo öğesi
-│   ├── TodoCreate.jsx    # Todo oluşturma formu
-│   └── TodoList.jsx      # Todo listesi
-├── helper/               # Yardımcı fonksiyonlar
-├── pages/               # Sayfalar
+│   ├── Todo.jsx          
+│   ├── TodoCreate.jsx    
+│   └── TodoList.jsx     
+├── helper/               
+├── pages/               
 ├── styles/
-│   └── App.css          # Stil dosyası
-├── App.js               # Ana uygulama bileşeni
-└── index.js             # Giriş noktası
+│   └── App.css          
+├── App.js               
+└── index.js             
 
 ## 🔍 Core Functionality
 
