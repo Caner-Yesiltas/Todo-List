@@ -1,3 +1,4 @@
+````markdown
 # Todo List App ✅
 
 <div align="center">
@@ -45,21 +46,23 @@ npm install
 # Start the development server
 npm start
 ```
+````
 
 ## 💻 Project Structure
 
-```
+```bash
 src/
 ├── components/
-│   ├── Todo.jsx          
-│   ├── TodoCreate.jsx    
-│   └── TodoList.jsx     
-├── helper/               
-├── pages/               
+│   ├── Todo.jsx
+│   ├── TodoCreate.jsx
+│   └── TodoList.jsx
+├── helper/
+├── pages/
 ├── styles/
-│   └── App.css          
-├── App.js               
-└── index.js             
+│   └── App.css
+├── App.js
+└── index.js
+```
 
 ## 🔍 Core Functionality
 
@@ -71,11 +74,13 @@ src/
 ## 🎯 Component Details
 
 ### TodoForm Component
+
 - Clean input interface
 - Submit validation
 - Clear input after submission
 
 ### TodoList Component
+
 - Task display
 - Edit/Delete options
 - Completion status toggle
@@ -103,7 +108,7 @@ Project Link: [https://todo-list-psi-ecru.vercel.app/](https://todo-list-psi-ecr
 
 ---
 
-
+<div align="center">
   Made with ❤️ by Caner Yesiltas
-
+</div>
 ```
