@@ -48,7 +48,7 @@ npm start
 
 ## 💻 Project Structure
 
-```
+
 src/
 ├── components/
 │   ├── Todo.jsx          
@@ -101,9 +101,8 @@ Caner Yesiltas - caneryesiltas1@gmail.com
 
 Project Link: [https://todo-list-psi-ecru.vercel.app/](https://todo-list-psi-ecru.vercel.app/)
 
----
 
 
   Made with ❤️ by Caner Yesiltas
 
-```
+
