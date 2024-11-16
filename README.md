@@ -1,4 +1,4 @@
-````markdown
+```markdown
 # Todo List App ✅
 
 <div align="center">
@@ -46,7 +46,6 @@ npm install
 # Start the development server
 npm start
 ```
-````
 
 ## 💻 Project Structure
 
@@ -74,13 +73,11 @@ src/
 ## 🎯 Component Details
 
 ### TodoForm Component
-
 - Clean input interface
 - Submit validation
 - Clear input after submission
 
 ### TodoList Component
-
 - Task display
 - Edit/Delete options
 - Completion status toggle
