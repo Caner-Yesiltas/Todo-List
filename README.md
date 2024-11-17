@@ -19,10 +19,9 @@ A sleek and efficient todo list application built with React. Users can manage t
 - ➕ Create new tasks easily
 - ✏️ Edit existing tasks
 - 🗑️ Delete tasks with one click
-- 💾 Local storage persistence
 - 📱 Responsive and mobile-friendly
 - 🎨 Clean and modern UI
-- 🔄 Real-time updates
+
 
 ### 🛠️ Built With
 
@@ -64,7 +63,6 @@ src/
 ## 🔍 Core Functionality
 
 - **Task Management**: Create, edit, and delete tasks
-- **Local Storage**: Persistent data across sessions
 - **Input Validation**: Prevent empty task creation
 - **Real-time Updates**: Instant UI refresh on changes
 
