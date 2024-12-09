@@ -33,7 +33,7 @@ A sleek and efficient todo list application built with React. Users can manage t
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/todo-list.git
+git clone https://github.com/caneryesiltas/todo-list.git
 
 # Navigate to project directory
 cd todo-list
