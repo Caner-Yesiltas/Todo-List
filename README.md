@@ -106,6 +106,6 @@ Project Link: [https://todo-list-psi-ecru.vercel.app/](https://todo-list-psi-ecr
 
 
 
-  Made with ❤️ by Caner Yesiltas
+  Made with by Caner Yesiltas
 
 
